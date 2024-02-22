@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 
-Document line structure
+// Document line structure
 typedef struct Line {
     char* text;           // Text content of the line
     struct Line* next;    // Pointer to the next line
